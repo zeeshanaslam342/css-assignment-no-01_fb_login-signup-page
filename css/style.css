@@ -7,3 +7,37 @@
 .main-box {
     background-color: #F0F2F5;
 }
+
+.content-box {
+    width: 75%;
+    margin: 0px auto;
+}
+
+/* logo and text box */
+
+.logo-text-box {
+    width: 50%;
+    display: inline-block;
+}
+
+.logo-box img {
+    width: 321px;
+}
+
+.logo-text-box p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    width: 90%;
+    margin: 0px auto;
+}
+
+/* form box */
+
+.form-box {
+    width: 40%;
+    display: inline-block;
+}
+
+.form {
+    /* width: 80%; */
+}
