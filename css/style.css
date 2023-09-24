@@ -16,7 +16,7 @@
 /* logo and text box */
 
 .logo-text-box {
-    width: 50%;
+    width: 55%;
     display: inline-block;
 }
 
@@ -39,5 +39,23 @@
 }
 
 .form {
-    /* width: 80%; */
+    width: 90%;
+    background-color: #FFFFFF;
+    /* padding: 5px 0px 5px 0px; */
+}
+
+.form-inner-box {
+    width: 90%;
+    margin: 0px auto;
+}
+
+
+#email-or-phone-no {
+    width: 100%;
+    padding: 10px;
+}
+
+.form-box .create-page {
+    text-align: center;
+    width: 90%;
 }
