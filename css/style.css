@@ -52,8 +52,41 @@
 
 #email-or-phone-no {
     width: 100%;
-    padding: 10px;
+    padding: 13px;
+    border-radius: 5px;
 }
+
+.password-box {
+    border: 2px solid black;
+    width: 100%;
+    padding: 11px;
+    border-radius: 5px;
+}
+
+.password-box #password {
+    width: 87%;
+    margin-right: 4%;
+    border: none;
+}
+
+.password-box #password:focus {
+    outline: none;
+    /* background-color: #1877F2; */
+}
+
+.form-inner-box .login {
+    width: 100%;
+    padding: 15px;
+    background-color: #1877F2;
+    border-radius: 5px;
+    border: none;
+}
+
+/* .password-box .eye-slash {
+    display: inline-block;
+    width: 10%;
+    align-items: center !important;
+} */
 
 .form-box .create-page {
     text-align: center;
