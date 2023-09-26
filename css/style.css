@@ -88,6 +88,16 @@
     align-items: center !important;
 } */
 
+.form-inner-box .forget-password {
+    text-align: center;
+    padding: 15px;
+}
+
+.form-inner-box .forget-password a {
+    text-decoration: none;
+    color: #1877F2;
+}
+
 .form-box .create-page {
     text-align: center;
     width: 90%;
