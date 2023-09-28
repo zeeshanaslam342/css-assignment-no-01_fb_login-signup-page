@@ -62,7 +62,7 @@
 
 #email-or-phone-no {
     width: 100%;
-    padding: 13px;
+    padding: 14px;
     border-radius: 5px;
     border: 1px solid #DADDE1;
     /* outline-color: #DADDE1; */
@@ -75,15 +75,17 @@
     /* outline-color:#1877F2;
     outline-style: solid;
     outline-width: thin; */
-    box-shadow: 0 2px 2px #1877F2;
+    box-shadow: 0 0px 3px #1877F2;
 }
 
 .password-box {
-    border: 2px solid black;
+    border: 1px solid #DADDE1;
     width: 100%;
-    padding: 11px;
+    padding: 12px;
     border-radius: 5px;
 }
+
+
 
 .password-box #password {
     width: 87%;
