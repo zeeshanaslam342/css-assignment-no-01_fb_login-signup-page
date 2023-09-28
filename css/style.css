@@ -9,13 +9,20 @@
     margin: 12px 0px;
 }
 
+.container {
+    width: 75%;
+    margin: 0px auto;
+}
+
 .main-box {
     background-color: #F0F2F5;
+    height: 100vh;
 }
 
 .content-box {
-    width: 75%;
-    margin: 0px auto;
+    /* width: 75%;
+    margin: 0px auto; */
+    padding-top: 110px;
 }
 
 /* logo and text box */
@@ -23,6 +30,7 @@
 .logo-text-box {
     width: 55%;
     display: inline-block;
+    margin-right: 10px;
 }
 
 .logo-box img {
@@ -62,7 +70,7 @@
 
 #email-or-phone-no {
     width: 100%;
-    padding: 14px;
+    padding: 15px;
     border-radius: 5px;
     border: 1px solid #DADDE1;
     /* outline-color: #DADDE1; */
@@ -81,7 +89,7 @@
 .password-box {
     border: 1px solid #DADDE1;
     width: 100%;
-    padding: 12px;
+    padding: 13px;
     border-radius: 5px;
 }
 
@@ -108,13 +116,12 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 
-/* .password-box .eye-slash {
-    display: inline-block;
-    width: 10%;
-    align-items: center !important;
-} */
+.password-box .eye-slash {
+    cursor: pointer;
+}
 
 .form-inner-box .forget-password {
     text-align: center;
@@ -129,6 +136,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.form-inner-box .forget-password a:hover {
+    text-decoration: underline;
+}
+
 .form-inner-box .create-new-account-btn-box {
     text-align: center;
     padding: 10px 0px 10px 0px;
@@ -139,23 +150,42 @@
     font-weight: bold;
     font-size: 17px;
     color: #FFFFFF;
-    background-color: #36A420;
+    background-color: #3db924;
     border: none;
     padding: 13px;
     letter-spacing: 0.8px;
     border-radius: 5px;
+    cursor: pointer;
+}
 
+.form-inner-box .create-new-account-btn-box .create-new-account:hover {
+    background-color: #36A420;
 }
 
 .form-box .create-page {
     text-align: center;
     width: 90%;
-    margin-top: 15px;
+    margin-top: 26px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
 }
 
 .form-box .create-page a {
     text-decoration: none;
     color: #000000;
     font-weight: bold;
+}
+
+.form-box .create-page a:hover {
+    text-decoration: underline;
+}
+
+/* footer */
+
+footer .lang {
+    border-bottom: 2px solid #DADDE1;
+}
+
+.list-item {
+    display: inline-block;
 }
