@@ -188,4 +188,19 @@ footer .lang {
 
 .list-item {
     display: inline-block;
+    color: #8A8D91;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    padding: 6px;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: #8A8D91;
+}
+
+.list-item a button {
+    padding: 0px 5px;
+    font-size: 18px;
+    width: 30px;
 }
