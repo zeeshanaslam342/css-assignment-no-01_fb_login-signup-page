@@ -224,3 +224,23 @@ footer .copy-right p {
     font-size: 12px;
     padding: 6px;
 }
+
+
+/* signup page styling */
+
+/* universal */
+
+.form-container {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.signup-form-box {
+    width: 32%;
+    margin: 0px auto;
+    background-color: #FFFFFF;
+}
+
+.signup-form-header .main-heading {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
