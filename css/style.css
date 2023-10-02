@@ -226,7 +226,7 @@ footer .copy-right p {
 }
 
 
-/* signup page styling */
+/*==============================================  signup page styling  ===================================================*/
 
 /* universal */
 
@@ -235,8 +235,19 @@ footer .copy-right p {
     margin: 0px auto;
 }
 
-.input-padding {
-    padding: 8px;
+.input {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid #CCD0D5;
+    background-color: #F5F6F7;
+    /* outline-width: 1px;
+    outline-color: #DADDE1;
+    outline-style: solid; */
+}
+
+.input:focus {
+    outline: none;
 }
 
 .signup-form-box {
@@ -247,14 +258,16 @@ footer .copy-right p {
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1),0 8px 16px rgba(0, 0, 0, .1);
 }
 
-.signup-form-header .main-heading {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #1C1E21;
-}
+/* =================================== Form header section styling ===================================== */
 
 .signup-form-header {
     border-bottom: 1px solid #DADDE1;
     padding: 10px 0px 10px 0px;
+}
+
+.signup-form-header .main-heading {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1C1E21;
 }
 
 .signup-form-header p {
@@ -263,11 +276,87 @@ footer .copy-right p {
     font-size: 15px;
 }
 
-.name-surname-box #name {
+/* ============================ form main section styling ================================ */
+
+/* name,surname,email or phone number and password section styling */
+
+.input-boxes-padding {
+    padding: 5px 0px;
+}
+
+main form .name-mobile-password-box {
+    margin: 10px 0px;
+}
+
+main form .name-mobile-password-box .name-surname-box #name {
     width: 49%;
     margin-right: 1%;
 }
 
-.name-surname-box #surname {
+main form .name-mobile-password-box .name-surname-box #surname {
     width: 49%;
+}
+
+main form .name-mobile-password-box .mob-or-email-box #mob-or-email {
+    width: 100%;
+}
+
+main form .name-mobile-password-box .new-password-box #new-password {
+    width: 100%;
+}
+
+/* birthdate section styling */
+
+.dropdowns{
+    width: 32%;
+    padding: 8px 5px;
+    border-radius: 5px;
+    border: 1px solid #CCD0D5;
+}
+
+.dropdowns:focus {
+    outline: none;
+}
+
+main form .birthdate .date-of-birth {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.75rem;
+    color: #59616e;
+}
+
+main form .birthdate #month-dropdown {
+    margin: 0% 1% ;
+}
+
+/* gender section */
+
+main form .gender .gender-p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.75rem;
+    color: #59616e;   
+}
+
+main form .gender .radio-btn-box {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    padding: 8px 6px;
+    border-radius: 5px;
+    border: 1px solid #CCD0D5;
+}
+
+main form .gender .female {
+    width: 33%;
+}
+
+main form .gender .male {
+    width: 30%;
+    margin: 0% 1% ;
+}
+
+main form .gender .custom {
+    width: 33%;
+}
+
+main form .radio-btn-margin {
+    margin-left: 52px;
 }

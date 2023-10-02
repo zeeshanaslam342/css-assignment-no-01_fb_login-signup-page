@@ -20,20 +20,23 @@
             <main>
                 <div class="form-container">
                     <form action="">
-                        <div class="name-surname-box">
-                            <input type="text" name="name" class="input-padding" id="name" placeholder="First name">
-                            <input type="text" name="surname" class="input-padding" id="surname" placeholder="Surname">
-                        </div>
-                        <section class="mob-or-email-box">
-                            <input type="text" name="mobile-or-email_address" id="mob-or-email"
-                                placeholder="Mobile number or email address">
-                        </section>
-                        <section class="new-password-box">
-                            <input type="password" name="new-password" id="new-password" placeholder="New password">
+                        <section class="name-mobile-password-box">
+                            <div class="name-surname-box input-boxes-padding">
+                                <input type="text" name="name" class="input" id="name" placeholder="First name">
+                                <input type="text" name="surname" class="input" id="surname" placeholder="Surname">
+                            </div>
+                            <div class="mob-or-email-box input-boxes-padding">
+                                <input type="text" name="mobile-or-email_address" class="input" id="mob-or-email"
+                                    placeholder="Mobile number or email address">
+                            </div>
+                            <div class="new-password-box input-boxes-padding">
+                                <input type="password" name="new-password" id="new-password" class="input"
+                                    placeholder="New password">
+                            </div>
                         </section>
                         <section class="birthdate">
                             <p class="date-of-birth">Date of birth</p>
-                            <select name="day" id="day">
+                            <select name="day" id="day-dropdown" class="dropdowns">
                                 <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
@@ -66,7 +69,7 @@
                                 <option value="30">30</option>
                                 <option value="31">31</option>
                             </select>
-                            <select name="month" id="month">
+                            <select name="month" id="month-dropdown" class="dropdowns" >
                                 <option value="jan">Jan</option>
                                 <option value="feb">Feb</option>
                                 <option value="mar">Mar</option>
@@ -80,28 +83,31 @@
                                 <option value="nov">Nov</option>
                                 <option value="dec">Dec</option>
                             </select>
-                            <select name="year" id="year">
-                                <option value="">2023</option>
-                                <option value="">2022</option>
-                                <option value="">2021</option>
-                                <option value="">2020</option>
-                                <option value="">2019</option>
-                                <option value="">2018</option>
-                                <option value="">2017</option>
-                                <option value="">2016</option>
-                                <option value="">2015</option>
-                                <option value="">2014</option>
-                                <option value="">2013</option>
-                                <option value="">2012</option>
+                            <select name="year" id="year-dropdown" class="dropdowns">
+                                <option value="2023">2023</option>
+                                <option value="2022">2022</option>
+                                <option value="2021">2021</option>
+                                <option value="2020">2020</option>
+                                <option value="2019">2019</option>
+                                <option value="2018">2018</option>
+                                <option value="2017">2017</option>
+                                <option value="2016">2016</option>
+                                <option value="2015">2015</option>
+                                <option value="2014">2014</option>
+                                <option value="2013">2013</option>
+                                <option value="2012">2012</option>
                             </select>
                         </section>
                         <section class="gender">
                             <p class="gender-p">Gender</p>
-                            <label for="female" class="female">
-                                Female <input type="radio" name="gender" id="female">
+                            <label for="female" class="female radio-btn-box">
+                                <span>Female</span><input type="radio" name="gender" value="female" id="female" class="radio-btn-margin">
                             </label>
-                            <label for="male" class="male">
-                                Male <input type="radio" name="gender" id="male">
+                            <label for="male" class="male radio-btn-box">
+                                <span>Male</span><input type="radio" name="gender" value="male" id="male" class="radio-btn-margin">
+                            </label>
+                            <label for="custom" class="custom radio-btn-box">
+                                <span>Custom</span><input type="radio" name="gender" value="custom" id="custom" class="radio-btn-margin">
                             </label>
                         </section>
                     </form>
@@ -117,7 +123,7 @@
                         SMS notifications from us and can opt out at any time.</p>
                     <div class="btn-box">
                         <button class="signup-btn">Sign Up</button>
-                    </div>    
+                    </div>
                 </div>
             </footer>
         </div>
