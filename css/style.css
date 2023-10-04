@@ -330,6 +330,10 @@ main form .birthdate #month-dropdown {
 
 /* gender section */
 
+main form .gender {
+    margin: 12px 0px;
+}
+
 main form .gender .gender-p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 0.75rem;
@@ -357,6 +361,14 @@ main form .gender .custom {
     width: 33%;
 }
 
-main form .radio-btn-margin {
-    margin-left: 52px;
+main form #female {
+    margin-left: 58px;
+}
+
+main form #male {
+    margin-left: 62px;
+}
+
+main form #custom {
+    margin-left: 53px;
 }
