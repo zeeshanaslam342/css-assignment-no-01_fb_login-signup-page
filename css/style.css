@@ -253,6 +253,7 @@ footer .copy-right p {
 .signup-form-box {
     width: 32%;
     margin: 0px auto;
+    padding: 10px 0px 22px 0px;
     background-color: #FFFFFF;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1),0 8px 16px rgba(0, 0, 0, .1);
@@ -262,7 +263,7 @@ footer .copy-right p {
 
 .signup-form-header {
     border-bottom: 1px solid #DADDE1;
-    padding: 10px 0px 10px 0px;
+    padding: 0px 0px 10px 0px;
 }
 
 .signup-form-header .main-heading {
@@ -389,4 +390,38 @@ footer p {
 
 footer .footer-second-p {
     margin: 10px 0px;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #385898;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+/* footer button */
+
+footer .btn-box {
+    text-align: center;
+    padding: 8px 8px 0px 8px;
+    margin-top: 12px;
+}
+
+footer .btn-box .signup-btn {
+    width: 12rem;
+    background-color: #00A400;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+footer .btn-box .signup-btn:hover {
+    background-color: #6CA15F;
 }
