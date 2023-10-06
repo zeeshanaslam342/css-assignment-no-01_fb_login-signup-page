@@ -259,6 +259,13 @@ footer .copy-right p {
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1),0 8px 16px rgba(0, 0, 0, .1);
 }
 
+/* ==================================== main box styling ============================================== */
+
+.main-box {
+    padding-top: 60px;
+}
+
+
 /* =================================== Form header section styling ===================================== */
 
 .signup-form-header {
